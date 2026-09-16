@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Neon District",
+    "slug": "neon-district-mobile",
+    "version": "1.0.0",
+    "orientation": "landscape",
+    "scheme": "neondistrict",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#10141c"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.habb.neondistrict"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#10141c",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.habb.neondistrict"
+    },
+    "plugins": ["expo-dev-client", "expo-screen-orientation"]
+  }
+}

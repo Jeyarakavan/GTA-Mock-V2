@@ -33,6 +33,13 @@ node scripts/verify.mjs   # end-to-end gameplay checks in a real browser
 through `playwright-core` (it uses your installed Chrome — nothing is
 downloaded).
 
+## Mobile (React Native)
+
+An Android-focused React Native port lives in [`mobile/`](mobile/). It reuses
+the same gameplay modules with touch controls, AsyncStorage saves, and
+`@react-three/fiber/native` rendering. See [mobile/README.md](mobile/README.md)
+for install, run, and testing instructions.
+
 ## Controls
 
 | Input  | Action                                     |
